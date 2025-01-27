@@ -10,10 +10,17 @@
         <div class="todo-app">
             <h2>Todo-list <img src="pic.png"></h2>
             <div class="row">
-                <input type="text" id="input-box" placeholder="Add your list">
+                <input type="text" id="input-box" placeholder="Add your task" style="width: 400px;">
+                <button onclick="addTask()">Add</button>
             </div>
+            <ul id="task-container" style="padding-left: 50px;">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li> -->
+            </ul>
         </div>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+*{
+    background-color: white;
+    padding: 0;
+    margin: 0; 
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 20px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.todo-app h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.todo-app h2 img{
+     width: 30px;
+     margin-left: 10px;
+}
+.row{
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
